@@ -2,7 +2,6 @@
 
 ## Job Application
 
-<br/>
 <h3>Goals and Features</h3>
 - develop visually appealing UI/UX designs
 - fetch data from an external API and integrate it
