@@ -15,7 +15,7 @@ Use [`expo-router`](https://expo.github.io/router) to build native navigation us
 
 ## 🚀 How to use
 
-<h4>To start Metro and bundle the app, need to run command `npm start` in the root directory of the project.</h4>
+<h4>To start Metro and bundle the app, need to run command [`npm start`] in the root directory of the project.</h4>
 
 ```sh
 npx create-react-native-app -t with-router
