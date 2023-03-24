@@ -11,17 +11,16 @@
 
 <hr>
 
-
-# Expo Router Example
-
 Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
 
 ## 🚀 How to use
 
+<h4>To start Metro and bundle the app, need to run command `npm start` in the root directory of the project.</h4>
+
 ```sh
 npx create-react-native-app -t with-router
+ 
 ```
-
 ## 📝 Notes
 
 - [Expo Router: Docs](https://expo.github.io/router)
