@@ -19,7 +19,7 @@ To start Metro and bundle the app, need to run command `npm start` in the root d
 
 ```sh
 npx create-react-native-app -t with-router
- 
+npm start
 ```
 ## 📝 Notes
 
