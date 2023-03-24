@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "apex_recruiting",
+    "slug": "apex_recruiting"
+  }
+}
