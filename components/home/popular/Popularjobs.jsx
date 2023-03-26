@@ -18,7 +18,6 @@ import styles from "./popularjobs.style";
 
 const Popularjobs = () => {
   const router = useRouter();
-
   const { data, isLoading, error } = useFetch("search", {
     query: "React developer",
     num_pages: 1,
@@ -26,7 +25,7 @@ const Popularjobs = () => {
 
   const [selectedJob, setSelectedJob] = useState();
 
-  const handlePressCard = (item) => {
+  const handleCardPress = (item) => {
     router.push(`/job-details/${item.job_id}`);
     setSelectedJob(item.job_id);
   };
@@ -52,10 +51,10 @@ const Popularjobs = () => {
               <PopularJobCard
                 item={item}
                 selectedJob={selectedJob}
-                handleCardPress={handlePressCard}
+                handleCardPress={handleCardPress}
               />
             )}
-            keyExtractor={(item) => item?.job_id}
+            keyExtractor={(item) => item.job_id}
             contentContainerStyle={{ columnGap: SIZES.medium }}
             horizontal
           />
