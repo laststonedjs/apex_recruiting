@@ -1,8 +1,8 @@
 <h1>Apex Recruiting</h1>
 
-## Job Application
+## [Job Application]
 
-<h3>Goals and Features</h3>
+<h3>[Goals and Features]</h3>
   - develop visually appealing UI/UX designs <br/>
   - fetch data from an external API and integrate it <br/>
   - implement search & pagination functionality <br/>
